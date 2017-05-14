@@ -1,0 +1,22 @@
+#include<conio.h>
+#include<iostream>
+using namespace std;
+int main()
+{
+//clrscr();
+int i,j,n,a=1;
+cout<<"Enter the number of lines ";
+cin>>n;
+for(i=1;i<=n;i++)
+{
+a=1;
+for(j=n;j>=i;j--)
+{
+cout<<" "<<a;
+a++;
+}
+cout<<endl;
+}
+getch();
+return 0;
+}
